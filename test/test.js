@@ -9,7 +9,7 @@ describe('#verify()', function() {
       from: 'cs@zigbang.com',
       to: 'cs@zigbang.com',
       debug: true,
-      timeout: 1500
+      timeout: 3000
     }).then(result => {
       if(result === 'EXIST') {
         done();
